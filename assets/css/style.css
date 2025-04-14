@@ -1,0 +1,99 @@
+:root {
+    --primary-color: #3f51b5;
+    --secondary-color: #f50057;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.card {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.room-card .card-footer {
+    border-top: none;
+    background-color: transparent;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #303f9f;
+    border-color: #303f9f;
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color) !important;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.footer {
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+/* Timer styles */
+#timer-text {
+    font-weight: bold;
+}
+
+/* Admin dashboard styles */
+.stats-card {
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+}
+
+.stats-card .card-body {
+    padding: 1.5rem;
+}
+
+.stats-card .stats-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.stats-card .stats-number {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.stats-card .stats-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
